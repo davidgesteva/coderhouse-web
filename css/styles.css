@@ -1,0 +1,272 @@
+/*Estilos Globales*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    font-family: Poppins, sans-serif;
+    font-size: 46px;
+    font-weight: 500px;
+
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: #494949;
+    font-weight: 500;
+}
+
+img { 
+    max-width: auto;
+    max-height: 750px;
+}
+
+body {
+    min-width: 1350px;
+    background-color: white;
+}
+
+footer {
+    height: 250px;
+    background-color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #FF7110;
+}
+
+footer a:hover {
+    color: #FF7110;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+
+.primary-button {
+    padding: 10px 10px 10px 10px;
+    background-color: #3A36C1;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.primary-button:hover {
+    padding: 10px 10px 10px 10px;
+    background-color: #FF7110;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+
+.secondary-button {
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 2px solid #3A36C1;
+    border-radius: 5px;
+    color: #3A36C1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.secondary-button:hover {
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 2px solid #3A36C1;
+    border-radius: 5px;
+    color: #3A36C1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: all 1s ease;
+}
+
+#hero {
+    min-height: 200px;
+    padding: 120px 144px 120px 244px;
+    background-color: #f1f1f1;
+    align-items: center;
+    align-content: center;
+}
+
+/*Estilos de Header - NavBar & Menu  */
+
+#nav-bar {
+    overflow: hidden;
+    background-color: #3A36C1;
+    border-bottom: 3px solid #27529B;
+    padding: 20px 20px;
+    padding-right: 150px;
+    padding-left: 120px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#nav-bar img {
+    float: left;
+    max-height: 42px;
+    display: block;
+ }
+
+#nav-bar li a {
+    display: inline-block;
+    text-decoration: none;
+    /*float: right;*/   
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#nav-bar li a:hover {
+    color: #FF7110;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+}
+
+#nav-bar li{
+    display: inline-block;
+}
+
+#nav-bar ul {
+    text-align: right;
+}
+
+/* Estilos About*/
+
+#about {
+    background-color: white;
+}
+
+.about-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.left-row-container {
+    width: 50%;
+    display: inline;
+}
+
+.left-row-container img {
+    max-width: auto;
+}
+
+.right-row-container{
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.about-heading {
+    margin-bottom: 20px;
+}
+
+.about-heading h2 {
+    font-size: 46px;
+    line-height: 50px;
+}
+
+.about-description {
+    margin-bottom: 20px;
+}
+
+.about-button-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px 30px 0 30px;
+}
+
+/* Estilos contacto*/
+
+.contact-form-section {
+    display: flex;
+    height: 250px;
+    padding: 40px 30px 40px 30px;
+    justify-content: center;
+}
+
+/* Estilos de Blog */
+
+#blog {
+    background-color: #f1f1f1;
+    padding-top: 50px;
+}
+
+.blog-heading h2 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.blog-box-container {
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.blog-box {
+    background-color: white;
+    margin: 20px;
+    max-height: 500px;
+    padding-bottom: 20px;
+    display: inline;
+    justify-content: center;
+}
+
+.blog-box img {
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.blog-box h3 {
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0  20px 0 20px;
+}
+
+.blog-article-link{
+    padding: 0 20px 0 20px;
+}
