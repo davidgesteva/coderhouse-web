@@ -15,9 +15,9 @@
             </style>
 
 
-
-
-        <!--Titulo del Sitio-->
+         <!--Bootstrap CDN-->   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <title>Dave Esteva | Desarrollador Web UI & Content Designer</title>
     </head>
 
@@ -26,20 +26,33 @@
          <!--Header Section-->
 
         <header id="header">
-            <nav id="nav-bar">
-                <div id="website-logo"><a href="#"><img alt="logo del sitio web" src="icons/02_Logo-Sitio Web_Blanco.svg"></a>
-                </div>
-
-                <div id="nav-menu">                
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="pages/about.html">Sobre Mi</a></li>
-                        <li><a href="pages/proyectos.html">Proyectos</a></li>
-                        <li><a href="pages/blog.html">Blog</a></li>
-                        <li><a href="pages/contacto.html">Contacto</a></li>
+            <nav class="navbar navbar-expand-lg header--menu__principal fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img alt="logo del sitio web" src="icons/02_Logo-Sitio Web_Blanco.svg" height="40px;"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<span class="navbar-toggler-icon"></span>--><i class="fa-solid fa-bars" style="color: white;"></i>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/about.html">Sobre Mi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                      </li>
                     </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>
         </header>
 
         <!--Main Section-->
@@ -47,7 +60,6 @@
         <main id="main">
 
          <!--Este es el hero del sitio web-->
-
          <section id="hero" class="hero-section">
             <h1 class="hero-title">
                 <span style="color: #3A36C1; text-decoration: underline; text-decoration-thickness: 4px; font-size: 67px; text-decoration-color: #FF7110;">¡Hola!</span> Soy Dave. 
@@ -106,6 +118,8 @@
                     <p>Creemos sitios web que impactan, enfocados en la conversion de leads.</p>
                 </div>
 
+                <div id="vertical-divider"></div>
+
                 <!--Servicio #02-->
                 <div class="services-box">
                      <!--Icono del Servicio-->
@@ -115,6 +129,8 @@
                     <!--Descripcion del Servicio-->
                     <p>Hagamos crecer tu comunidad, diseñando contenidos que te posicionen en el mapa.</p>
                 </div>
+
+                <div id="vertical-divider"><hr class="solid"></div>
 
                  <!--Servicio #03-->
                 <div class="services-box">
@@ -138,8 +154,9 @@
 
             <div class="projects-container">
                 <!--Proyecto #01-->
+
                 <div class="projects-container-image">
-                    <a href="https://www.behance.net/gallery/158666269/Social-Media-Design-Caimanes-Futbol-Club" target="_blank"><img alt="proyecto-caimanes" src="images/00_Portafolio-Caimanes.webp"></a>
+                    <a href="https://www.behance.net/gallery/102413333/Diseno-Web-Grupo-CETEP" target="_blank"> <img alt="proyecto-caimanes" src="images/00_Portafolio-Caimanes.webp" class="projects-image"></a>
                 </div>
 
                 <!--Proyecto #02-->
@@ -248,5 +265,8 @@
                 Copyright &copy 2025
             </p>
         </footer>
+
+        <!--Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     </body>
 </html>
