@@ -226,34 +226,38 @@
 
         <!--Esta es la seccion de contácto-->
 
+        <!--Seccion de contacto con Bootstrap-->
+
+        <!--fin de la seccion de contacto con bootstrap-->
+
         <section id="contacto">
-            <div class="contact-form-section">
-
-                <div class="left-row-container">
-                    
-                    <div class="form-container">
-                    <form action="">
-                        <label for="nombre">Tu Nombre:</label>
-                        <input type="text" id="nombre" placeholder="Ingresa tu nombre, por favor.">
-                        <label for="apellido">Tu Apellido:</label>
-                        <input type="text" id=apellido" placeholder="Índicame tu apellido">
-                        <label for="correo">Tu Correo Electrónico</label>
-                        <input type="email" id="correo" placeholder="Dejame tu correo">
-                        <label for="mensaje">Escribe tu mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" placeholder="¡Hola! Quiero contactar contigo"></textarea>
-                        <input type="submit" value="submit">
-                    </form>
+            <div class="container contacto__container">
+                <div class="row align-items-center flex-lg-row flex-sm-column-reverse flex-column-reverse flex-md-row contacto__container--rows">
+                  <div class="col-sm-12 col-md-6 col contacto__left--container">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Tu nombre:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre, por favor.">
                     </div>
-                </div>
-
-                <div class="right-row-container">
-
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Tu apellido</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Índicame tu apellido.">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput3" class="form-label">Tu Correo Electrónico</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Dejame tu correo.">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput3" class="form-label">Escribe tu mensaje</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="¡Hola! Quiero contactar contigo.">
+                    </div>
+                    <button type="submit" class="btn btn-primary primary-button mt-3 ">Envíar</button>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col contacto__right--container">
                     <h2>Cuentame tus ideas</h2>
-                    <p>Me gustaria ayudarte a cumplir tus objetivos. Envíame un mensaje y trabajemos mano a mano en tu proyecto</p>
+                    <p>Me gustaria ayudarte a cumplir tus objetivos. Envíame un mensaje y trabajemos mano a mano en tu proyecto.</p>
+                  </div>
                 </div>
-
-            </div>
-
+              </div>
         </section>
         
         </main>
