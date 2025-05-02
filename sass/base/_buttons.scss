@@ -1,0 +1,90 @@
+
+/*BASE CLASES DEFINITIONS*/
+
+
+.button {
+
+    padding: 10px !important;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*STYLES EXTENSIONS*/
+
+.primary-button {
+    @extend .button;
+    background-color: #3a36c1;
+    border-style: none;
+    color: white;
+}
+
+.primary-button:hover {
+    @extend .button;
+    background-color: #FF7110;
+    transition: all 1s ease !important;
+}
+
+.secondary-button {
+    @extend .button;
+    background-color: transparent;
+    border: 2px solid #3A36C1;
+    color: #3A36C1;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondary-button:hover {
+    border: 3px solid;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/*Botones Originales*/
+
+/* .primary-button {
+    padding: 10px 10px 10px 10px !important;
+    background-color: #3A36C1 !important;
+    border-style: none;
+    border-radius: 5px !important;
+    color: white !important;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.primary-button:hover {
+    padding: 10px 10px 10px 10px !important;
+    background-color: #FF7110 !important;
+    border-style: none;
+    border-radius: 5px !important;
+    color: white !important;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 500 !important;
+    transition: all 1s ease !important;
+}
+
+.secondary-button {
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 2px solid #3A36C1;
+    border-radius: 5px;
+    color: #3A36C1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.secondary-button:hover {
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 2px solid #3A36C1;
+    border-radius: 5px;
+    color: #3A36C1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: all 1s ease;
+}*/

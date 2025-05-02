@@ -1,0 +1,168 @@
+/*Media Queries*/
+ 
+@media (max-width: 575.98px){
+
+    main {
+        max-width: 100%;
+    }
+
+    #hero {
+        min-height: 550px;
+        padding: 80px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+    
+    .left-row-container {
+        width: 100%;
+    }
+    
+    .left-row-container img {
+        width: 100%;
+    }
+    
+    .right-row-container{
+        padding: 40px;
+        padding-bottom: 60px;
+        border-bottom: lightgray 2px solid;
+    
+    }
+
+    .services-container{
+        padding-bottom: 50px;
+    }
+
+    .services-heading h2 {
+        margin-bottom: 50px;
+    }
+    
+    .services-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-box {
+        padding: 5px;
+        padding-bottom: 20px;
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        margin: 0;
+    }
+    
+    #vertical-divider {
+        width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .projects-container-image {
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .projects-container-image img {
+        max-width: 200px;
+    }
+
+    .projects-button {
+        margin-top: 50px;
+    }
+
+    .blog-box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-buttom a {
+        text-align: center;
+    }
+    
+}
+
+/*@media (min-width: 767.98px) and (max-width: 991.98px)*/
+
+@media (max-width: 991.98px) {
+
+    main {
+        max-width: 100%;
+    }
+
+    #hero {
+        min-height: 500px;
+        padding: 80px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .left-row-container {
+        max-width: 100%;
+        flex: 1 100%;
+    }
+
+    .left-row-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-row-container{
+        max-width: 100%;
+        flex: 1 100%;
+        text-align: center;
+        border-bottom: lightgray 2px solid;
+    
+    }
+
+    .services-container{
+        padding-bottom: 50px;
+    }
+
+    .services-heading h2 {
+        margin-bottom: 50px;
+    }
+    
+    .services-box {
+        padding: 5px;
+        padding-bottom: 20px;
+        text-align: center;
+        height: 250px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .projects-container-image {
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .projects-container-image img {
+        max-width: 250px;
+    }
+
+
+    .blog-box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-buttom a {
+        text-align: center;
+    }
+
+}
